@@ -1,4 +1,4 @@
-# React-Docker
+# React Docker Compose Example
 
 A simple Node backend-React frontend app deployed on Docker living on localhost ports 3000 and 4000
 
