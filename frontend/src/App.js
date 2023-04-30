@@ -4,13 +4,13 @@ import React, { useEffect } from "react";
 import axios from "axios";
 
 function App() {
-  const aaa = async () => {
-    const res = await axios.get("http://localhost:4000/");
+  const fetchData = async () => {
+    const res = await fetch("http://localhost:4000/");
     console.log(res);
   };
 
   useEffect(() => {
-    aaa();
+    fetchData();
   }, []);
 
   return (
